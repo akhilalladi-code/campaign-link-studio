@@ -1,0 +1,10 @@
+{
+  "name": "campaign-link-studio",
+  "version": "1.0.0",
+  "private": false,
+  "description": "A local-first UTM builder, campaign naming checker and bulk tracking-link generator.",
+  "type": "module",
+  "scripts": {"dev":"node server.mjs","test":"node --test","check":"node --check src/core.js && node --check src/app.js && node --check server.mjs","validate":"npm run check && npm test"},
+  "engines": {"node": ">=18"},
+  "license": "MIT"
+}
